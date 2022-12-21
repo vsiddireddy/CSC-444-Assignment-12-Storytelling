@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSC 444 Game Sales Data</title>
+        <meta charset="UTF-8" />
+        <script src="https://vega.github.io/vega/vega.min.js"></script>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+
+    <body>
+        <h1>Video Game Sales from 1983 to 2016</h1>
+        <p>
+          Recently, Microsoft purchased Activision Blizzard for nearly $70 billion to make Xbox more competitive in the video game market. However, Sony/PlayStation, has tried to prevent this deal from closing by trying to convince government regulators in the EU And England that this purchase could lead to a monopoly and cause irreparable damage to Sony. However, this is not true, as Nintendo and Sony have been the market leaders in the video game industry for the past 20 years by a large margin. Looking at game sales across multiple hardware consoles like the Wii, PlayStation, Xbox, and more, we can see that Nintendo and Sony have been dominating the market. In contrast, Xbox has lagged at a distant third place. Using this data, I hope to show that Microsoft purchasing Activision Blizzard can help make people realize that this will help the industry overall, as it means that there will be increased competition between Sony, Nintendo, and Microsoft, which will help consumers at the end of the day with better products, services, deals, etc.
+        </p>
+        <h2>Total Video Game Sales by Publisher</h2>
+        <p>
+          Looking from this point of view, we can see the total number of game copies sold on each publisher's platform. We can see that Nintendo and Sony
+          double and even triple the number of games sold on their platforms compared to Microsoft/Xbox. We see Microsoft barely hit over 200 million copies
+          while Nintendo and Sony have 1600 and 600 million copies sold respectively.
+        </p>
+        <p>
+          * Hover over each bar to see the exact copies sold.
+        <p>
+        <div id="view2"></div>
+        <p>
+          Looking at this perspective, we can see how many game copies are sold on each platform on a yearly basis giving us more insight into how massive
+          the gap is with Nintendo and Sony from Microsoft. Usually Microsoft saw copies sold around 5-20 million every year which pales in comparision
+          to Nintendo and Sony which saw around 20-70 million copies sold yearly. Looking at this chronological point of view shows how Nintendo and Sony
+          have been able to dominate on a yearly basis and that Microsoft/Xbox rarely achieved those numbers.
+        </p>
+        <p>
+          * Hover over each point to see the exact copies sold.
+        <p>
+        <div id="view"></div>
+        <div id="selector" style="padding: 50px; font-family: Arial, Helvetica, sans-serif;"></div>
+    </body>
+
+    <script src="source/games.js"></script>
+
+</html>
