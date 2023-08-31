@@ -41,7 +41,7 @@ var spec2 = {
   data: [
     {
       name: "games",
-      url: "https://raw.githubusercontent.com/vsiddireddy/gamesales/main/vgsales.csv",
+      url: "https://raw.githubusercontent.com/vsiddireddy/Assignment12/ecccaca485a206c313775d18907830373c472b4c/vgsales.csv",
       format: { type: "csv" },
       transform: [
         {
@@ -180,7 +180,7 @@ var spec = {
   data: [
     {
       name: "games",
-      url: "https://raw.githubusercontent.com/vsiddireddy/gamesales/main/vgsales.csv",
+      url: "https://raw.githubusercontent.com/vsiddireddy/Assignment12/ecccaca485a206c313775d18907830373c472b4c/vgsales.csv",
       format: { type: "csv" },
       transform: [
         {
